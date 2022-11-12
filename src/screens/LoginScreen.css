@@ -28,6 +28,8 @@
     z-index: 1;
     color: #fff;
     padding: 20px;
+    left: 0;
+    right: 0;
 }
 
 .loginScreen__body > h1 {
@@ -89,4 +91,8 @@
     font-weight: 600;
     cursor: pointer;
 
+}
+
+.loginScreen__input {
+    margin: 20px;
 }
