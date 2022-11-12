@@ -1,0 +1,31 @@
+.player {
+  height: 100vh;
+  width: 100vw;
+  margin-top: 0%;
+  background-color: black;
+}
+.player__video  {
+    width: 98% !important; 
+    height: 900px !important;
+    margin-top: -3%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-top: 2%;
+    padding-right: 10px;
+    z-index: 1;
+}
+.player__video:hover {
+    pointer-events: none;
+}
+.player__button{
+    position: relative;
+    padding: 20px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    z-index: 1;
+    font-weight: 600;
+    margin-left: 25px;
+}

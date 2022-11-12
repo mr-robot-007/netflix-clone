@@ -6,6 +6,7 @@ import { login, logout, selectUser } from "./features/userSlice";
 import { auth } from "./firebase";
 import HomeScreen from "./screens/HomeScreen";
 import LoginScreen from "./screens/LoginScreen";
+import Player from "./screens/Player";
 import ProfileScreen from "./screens/ProfileScreen";
 // import {Browser}
 
@@ -36,6 +37,7 @@ function App() {
       <Router>
         {!user ? (<LoginScreen/>) : (<Routes>
           <Route path = '/profile' element = {<ProfileScreen/>}/>
+          <Route path = '/player' element = {<Player/>}/>
           <Route exact path="/" element={<HomeScreen />} />
         </Routes>)}
         
